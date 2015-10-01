@@ -1,0 +1,540 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="viewport" content="width=1020">
+    
+    
+    <title>Release 1.0.9 · atom/atom · GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png">
+    <meta property="fb:app_id" content="1401488693436528">
+
+      <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="atom/atom" name="twitter:title" /><meta content="atom - The hackable text editor" name="twitter:description" /><meta content="https://avatars2.githubusercontent.com/u/1089146?v=3&amp;s=400" name="twitter:image:src" />
+      <meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://avatars2.githubusercontent.com/u/1089146?v=3&amp;s=400" property="og:image" /><meta content="atom/atom" property="og:title" /><meta content="https://github.com/atom/atom" property="og:url" /><meta content="atom - The hackable text editor" property="og:description" />
+      <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+    <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+    <link rel="assets" href="https://assets-cdn.github.com/">
+    
+    <meta name="pjax-timeout" content="1000">
+    
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="selected-link" value="repo_releases" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+        <meta name="google-analytics" content="UA-3769691-2">
+
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="32CF6A22:16D5:217E24B:55E5E596" name="octolytics-dimension-request_id" />
+    
+    <meta content="Rails, view, releases#show" data-pjax-transient="true" name="analytics-event" />
+    <meta class="js-ga-set" name="dimension1" content="Logged Out">
+      <meta class="js-ga-set" name="dimension4" content="Current repo nav">
+    <meta name="is-dotcom" content="true">
+        <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <link rel="icon" sizes="any" mask href="https://assets-cdn.github.com/pinned-octocat.svg">
+      <meta name="theme-color" content="#4078c0">
+      <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+    <!-- </textarea> --><!-- '"` --><meta content="authenticity_token" name="csrf-param" />
+<meta content="bqgv3Sr0kqky4lMCylmQqDO19DzbSCk7bSIhxTZkDoDpe+l7Z9Ir1ZcugUmwWI9yu0MPfPzYx9mYQLRqc2hOuA==" name="csrf-token" />
+    
+
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-8033740a62953273e0af57a9f7f0b372d60ab1b6e54cd4956c336c0f747a0432.css" media="all" rel="stylesheet" />
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github2-3be99893fb56f39a7993a8f05d30e356f19f0a59fd96a7417a099a8977017ffc.css" media="all" rel="stylesheet" />
+    
+    
+
+
+    <meta http-equiv="x-pjax-version" content="2f7ac07f78134c35d49b2d284cada47b">
+
+      
+  <meta name="description" content="atom - The hackable text editor">
+  <meta name="go-import" content="github.com/atom/atom git https://github.com/atom/atom.git">
+
+  <meta content="1089146" name="octolytics-dimension-user_id" /><meta content="atom" name="octolytics-dimension-user_login" /><meta content="3228505" name="octolytics-dimension-repository_id" /><meta content="atom/atom" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="3228505" name="octolytics-dimension-repository_network_root_id" /><meta content="atom/atom" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/atom/atom/commits/v1.0.9.atom" rel="alternate" title="Recent Commits to atom:v1.0.9" type="application/atom+xml">
+
+  </head>
+
+
+  <body class="logged_out  env-production  vis-public">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+    <div class="wrapper">
+      
+      
+      
+
+
+
+        
+        <div class="header header-logged-out" role="banner">
+  <div class="container clearfix">
+
+    <a class="header-logo-wordmark" href="https://github.com/" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+      <span class="mega-octicon octicon-logo-github"></span>
+    </a>
+
+    <div class="header-actions" role="navigation">
+        <a class="btn btn-primary" href="/join" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+      <a class="btn" href="/login?return_to=%2Fatom%2Fatom%2Freleases%2Ftag%2Fv1.0.9" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+    </div>
+
+    <div class="site-search repo-scope js-site-search" role="search">
+      <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/atom/atom/search" class="js-site-search-form" data-global-search-url="/search" data-repo-search-url="/atom/atom/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+  <label class="js-chromeless-input-container form-control">
+    <div class="scope-badge">This repository</div>
+    <input type="text"
+      class="js-site-search-focus js-site-search-field is-clearable chromeless-input"
+      data-hotkey="s"
+      name="q"
+      placeholder="Search"
+      aria-label="Search this repository"
+      data-global-scope-placeholder="Search GitHub"
+      data-repo-scope-placeholder="Search"
+      tabindex="1"
+      autocapitalize="off">
+  </label>
+</form>
+    </div>
+
+      <ul class="header-nav left" role="navigation">
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/explore" data-ga-click="(Logged out) Header, go to explore, text:explore">Explore</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/features" data-ga-click="(Logged out) Header, go to features, text:features">Features</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://enterprise.github.com/" data-ga-click="(Logged out) Header, go to enterprise, text:enterprise">Enterprise</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/pricing" data-ga-click="(Logged out) Header, go to pricing, text:pricing">Pricing</a>
+          </li>
+      </ul>
+
+  </div>
+</div>
+
+
+
+      <div id="start-of-content" class="accessibility-aid"></div>
+
+      <div id="js-flash-container">
+</div>
+
+
+          <div itemscope itemtype="http://schema.org/WebPage">
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+      <div class="container">
+
+        <div class="clearfix">
+          
+<ul class="pagehead-actions">
+
+  <li>
+      <a href="/login?return_to=%2Fatom%2Fatom"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <span class="octicon octicon-eye"></span>
+    Watch
+  </a>
+  <a class="social-count" href="/atom/atom/watchers">
+    1,334
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fatom%2Fatom"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <span class="octicon octicon-star"></span>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/atom/atom/stargazers">
+      19,778
+    </a>
+
+  </li>
+
+    <li>
+      <a href="/login?return_to=%2Fatom%2Fatom"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <span class="octicon octicon-repo-forked"></span>
+        Fork
+      </a>
+      <a href="/atom/atom/network" class="social-count">
+        3,378
+      </a>
+    </li>
+</ul>
+
+          <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public ">
+  <span class="mega-octicon octicon-repo"></span>
+  <span class="author"><a href="/atom" class="url fn" itemprop="url" rel="author"><span itemprop="title">atom</span></a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong><a href="/atom/atom" data-pjax="#js-repo-pjax-container">atom</a></strong>
+
+  <span class="page-context-loader">
+    <img alt="" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+  </span>
+
+</h1>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="repository-with-sidebar repo-container new-discussion-timeline ">
+        <div class="repository-sidebar clearfix">
+          
+<nav class="sunken-menu repo-nav js-repo-nav js-sidenav-container-pjax js-octicon-loaders"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container"
+     data-issue-count-url="/atom/atom/issues/counts">
+  <ul class="sunken-menu-group">
+    <li class="tooltipped tooltipped-w" aria-label="Code">
+      <a href="/atom/atom/tree/v1.0.9" aria-label="Code" aria-selected="true" class="js-selected-navigation-item selected sunken-menu-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /atom/atom/tree/v1.0.9">
+        <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Issues">
+        <a href="/atom/atom/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /atom/atom/issues">
+          <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+          <span class="js-issue-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Pull requests">
+      <a href="/atom/atom/pulls" aria-label="Pull requests" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g p" data-selected-links="repo_pulls /atom/atom/pulls">
+          <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull requests</span>
+          <span class="js-pull-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+  </ul>
+  <div class="sunken-menu-separator"></div>
+  <ul class="sunken-menu-group">
+
+    <li class="tooltipped tooltipped-w" aria-label="Pulse">
+      <a href="/atom/atom/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-selected-links="pulse /atom/atom/pulse">
+        <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Graphs">
+      <a href="/atom/atom/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-selected-links="repo_graphs repo_contributors /atom/atom/graphs">
+        <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+  </ul>
+
+
+</nav>
+
+            <div class="only-with-full-nav">
+                
+<div class="js-clone-url clone-url open"
+  data-protocol-type="http">
+  <h3><span class="text-emphasized">HTTPS</span> clone URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/atom/atom.git" readonly="readonly" aria-label="HTTPS clone URL">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+  
+<div class="js-clone-url clone-url "
+  data-protocol-type="subversion">
+  <h3><span class="text-emphasized">Subversion</span> checkout URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/atom/atom" readonly="readonly" aria-label="Subversion checkout URL">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+
+
+  <div class="clone-options">You can clone with
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone" class="inline-form js-clone-selector-form " data-form-nonce="113f6700e1179497cd24ea395c34d6cab11e1ac9" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="3bXNkP5PmPqIq9RJKaTI1CuHxhJDLMfGWUgxWkYX0IsL8X4WSL55c8IrjuRe81G/vp70lGxKWBkdIEr9/MF8Kg==" /></div><button class="btn-link js-clone-selector" data-protocol="http" type="submit">HTTPS</button></form> or <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone" class="inline-form js-clone-selector-form " data-form-nonce="113f6700e1179497cd24ea395c34d6cab11e1ac9" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="CFhiuHgKY0vZ2vnf+QHOfYQmeDZN2vbnwnF/DDgmnaud7mZXAov2rODFGwTH8/48dkw58teU89VSrc/QTwJvtA==" /></div><button class="btn-link js-clone-selector" data-protocol="subversion" type="submit">Subversion</button></form>.
+    <a href="https://help.github.com/articles/which-remote-url-should-i-use" class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
+      <span class="octicon octicon-question"></span>
+    </a>
+  </div>
+
+              <a href="/atom/atom/archive/master.zip"
+                 class="btn btn-sm sidebar-button"
+                 aria-label="Download the contents of atom/atom as a zip file"
+                 title="Download the contents of atom/atom as a zip file"
+                 rel="nofollow">
+                <span class="octicon octicon-cloud-download"></span>
+                Download ZIP
+              </a>
+            </div>
+        </div>
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+
+          
+<div class="subnav">
+  <div class="subnav-links left" role="navigation">
+  <a href="/atom/atom/releases" aria-selected="true" class="js-selected-navigation-item selected subnav-item" data-selected-links="repo_releases /atom/atom/releases">Releases</a>
+  <a href="/atom/atom/tags" class="js-selected-navigation-item subnav-item" data-selected-links="repo_tags /atom/atom/tags">Tags</a>
+</div>
+
+
+</div>
+
+<div class="release-show">
+  <div class="release label-latest">
+  <div class="release-meta">
+    <span class="release-label latest">
+        <a href="/atom/atom/releases/latest">Latest release</a>
+    </span>
+
+      <ul class="tag-references">
+        <li>
+          <a href="/atom/atom/tree/v1.0.9" class="css-truncate">
+            <span class="octicon octicon-tag"></span>
+            <span class="css-truncate-target">v1.0.9</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="/atom/atom/commit/c0b4181b47737f4c1e4d0b32908f86c1d4e5d266">
+            <span class="octicon octicon-git-commit"></span>
+            c0b4181
+          </a>
+        </li>
+      </ul>
+
+  </div><!-- /.meta -->
+
+  <div class="release-body commit open">
+    <div class="release-header">
+
+      <h1 class="release-title">
+        <a href="/atom/atom/releases/tag/v1.0.9">1.0.9</a>
+      </h1>
+      <p class="release-authorship">
+        <img alt="@mhubot" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/3697332?v=3&amp;s=40" width="20" />
+        <a href="/mhubot">mhubot</a>
+        released this
+          <time datetime="2015-08-28T20:55:24Z" is="relative-time">Aug 28, 2015</time>
+
+          &middot;
+
+          <a href="/atom/atom/compare/v1.0.9...master">
+            30 commits</a>
+          to master
+          since this release
+      </p>
+    </div>
+
+      <div class="markdown-body">
+        <h3>Notable Changes</h3>
+
+<ul>
+<li>Fixed an issue on Windows where Atom would fail to launch when executing the <code>wmic</code> command failed.</li>
+<li>Fixed an issue on Mac where Atom would fail to launch when executing the <code>defaults</code> or <code>locale</code> command failed.</li>
+<li>Improved scrolling behavior when dragging selections with the mouse.</li>
+<li>Made the custom gutter API public.</li>
+</ul>
+      </div>
+
+      <h2 class="release-downloads-header">Downloads</h2>
+      <ul class="release-downloads">
+          <li>
+            <a href="/atom/atom/releases/download/v1.0.9/atom-1.0.9-delta.nupkg" rel="nofollow">
+              <small class="text-muted right">1.39 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>atom-1.0.9-delta.nupkg</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/atom/atom/releases/download/v1.0.9/atom-1.0.9-full.nupkg" rel="nofollow">
+              <small class="text-muted right">74.6 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>atom-1.0.9-full.nupkg</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/atom/atom/releases/download/v1.0.9/atom-amd64.deb" rel="nofollow">
+              <small class="text-muted right">68 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>atom-amd64.deb</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/atom/atom/releases/download/v1.0.9/atom-api.json" rel="nofollow">
+              <small class="text-muted right">790 KB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>atom-api.json</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/atom/atom/releases/download/v1.0.9/atom-mac-symbols.zip" rel="nofollow">
+              <small class="text-muted right">67.2 KB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>atom-mac-symbols.zip</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/atom/atom/releases/download/v1.0.9/atom-mac.zip" rel="nofollow">
+              <small class="text-muted right">67.8 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>atom-mac.zip</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/atom/atom/releases/download/v1.0.9/atom-windows.zip" rel="nofollow">
+              <small class="text-muted right">76.1 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>atom-windows.zip</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/atom/atom/releases/download/v1.0.9/atom.x86_64.rpm" rel="nofollow">
+              <small class="text-muted right">55 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>atom.x86_64.rpm</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/atom/atom/releases/download/v1.0.9/AtomSetup.exe" rel="nofollow">
+              <small class="text-muted right">75 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>AtomSetup.exe</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/atom/atom/releases/download/v1.0.9/RELEASES" rel="nofollow">
+              <small class="text-muted right">6.27 KB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>RELEASES</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/atom/atom/archive/v1.0.9.zip" rel="nofollow">
+              <span class="octicon octicon-file-zip text-muted"></span>
+              <strong>Source code</strong> (zip)
+            </a>
+          </li>
+          <li>
+            <a href="/atom/atom/archive/v1.0.9.tar.gz" rel="nofollow">
+              <span class="octicon octicon-file-zip text-muted"></span>
+              <strong>Source code</strong> (tar.gz)
+            </a>
+          </li>
+      </ul>
+
+  </div><!-- /.release-body -->
+</div><!-- /.release -->
+
+</div>
+
+        </div>
+      </div>
+      <div class="modal-backdrop"></div>
+    </div>
+  </div>
+
+
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links right">
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+      <li><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+        <li><a href="https://github.com/pricing" data-ga-click="Footer, go to pricing, text:pricing">Pricing</a></li>
+
+    </ul>
+
+    <a href="https://github.com" aria-label="Homepage">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+</a>
+    <ul class="site-footer-links">
+      <li>&copy; 2015 <span title="0.06439s from github-fe118-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact</a></li>
+        <li><a href="https://help.github.com" data-ga-click="Footer, go to help, text:help">Help</a></li>
+    </ul>
+  </div>
+</div>
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-suggester-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="fullscreen-contents js-fullscreen-contents" placeholder="" aria-label=""></textarea>
+      <div class="suggester-container">
+        <div class="suggester fullscreen-suggester js-suggester js-navigation-container"></div>
+      </div>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped tooltipped-w" aria-label="Exit Zen Mode">
+      <span class="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped tooltipped-w"
+      aria-label="Switch themes">
+      <span class="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    
+    
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <button type="button" class="flash-close js-flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+        <span class="octicon octicon-x"></span>
+      </button>
+      Something went wrong with that request. Please try again.
+    </div>
+
+
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-2317046bbda4f1c516c598a8b2c63343669922648e6987a1ed4f909dce1fb689.js"></script>
+      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github/index-99a877e59649e094c6a3fb198f6bd13f79fb63038247395086c982d5058b26fe.js"></script>
+      
+      
+    <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner hidden">
+      <span class="octicon octicon-alert"></span>
+      <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+      <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    </div>
+  </body>
+</html>
+
